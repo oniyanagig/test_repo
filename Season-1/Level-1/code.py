@@ -15,7 +15,7 @@ from collections import namedtuple
 
 Order = namedtuple('Order', 'id, items')
 Item = namedtuple('Item', 'type, description, amount, quantity')
-Key = 'Item'
+ApiSecretKey = 'mfoisJPOifjoamfmpSMPoirjgamgpampaomDp'
 
 def validorder(order: Order):
     net = 0
