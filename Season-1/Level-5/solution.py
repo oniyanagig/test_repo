@@ -36,6 +36,7 @@ class SHA256_hasher:
 PRIVATE_KEY = os.environ.get('PRIVATE_KEY')
 PUBLIC_KEY = os.environ.get('PUBLIC_KEY')
 SECRET_KEY = os.environ.get('SECRET_KEY')
+API_KEY = 'mfoisJPOifjoamfmpSMPoirjgamgpampaomDp'
 PASSWORD_HASHER = 'SHA256_hasher'
 
 # Solution explanation:
